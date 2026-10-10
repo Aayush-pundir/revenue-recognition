@@ -1,0 +1,6 @@
+[
+  {"product": "dashcam",  "unit_ssp": "2000", "effective_from": "2026-01-01"},
+  {"product": "data-12m", "unit_ssp": "1200", "effective_from": "2026-01-01"},
+  {"product": "adas-kit", "unit_ssp": "1000", "effective_from": "2026-01-01"},
+  {"product": "data-12m-monthly", "unit_ssp": "1800", "effective_from": "2026-01-01"}
+]

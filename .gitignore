@@ -1,2 +1,4 @@
 knowledge/ind-as-115/raw/
 knowledge/ind-as-115/text/
+__pycache__/
+*.pyc

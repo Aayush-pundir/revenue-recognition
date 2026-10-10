@@ -1,0 +1,75 @@
+{
+  "id": "EX-B",
+  "customer": "Fleet Co",
+  "customer_type": "fleet",
+  "transaction_price": "1800",
+  "lines": [
+    {
+      "id": "L1",
+      "product": "adas-kit",
+      "stream": "hardware",
+      "qty": 1,
+      "pattern": "point_in_time",
+      "start": "2026-01-15"
+    },
+    {
+      "id": "L2",
+      "product": "data-12m-monthly",
+      "stream": "data",
+      "qty": 1,
+      "pattern": "over_time",
+      "start": "2026-01-15",
+      "months": 12
+    }
+  ],
+  "invoices": [
+    {
+      "date": "2026-01-15",
+      "amount": "150"
+    },
+    {
+      "date": "2026-02-15",
+      "amount": "150"
+    },
+    {
+      "date": "2026-03-15",
+      "amount": "150"
+    },
+    {
+      "date": "2026-04-15",
+      "amount": "150"
+    },
+    {
+      "date": "2026-05-15",
+      "amount": "150"
+    },
+    {
+      "date": "2026-06-15",
+      "amount": "150"
+    },
+    {
+      "date": "2026-07-15",
+      "amount": "150"
+    },
+    {
+      "date": "2026-08-15",
+      "amount": "150"
+    },
+    {
+      "date": "2026-09-15",
+      "amount": "150"
+    },
+    {
+      "date": "2026-10-15",
+      "amount": "150"
+    },
+    {
+      "date": "2026-11-15",
+      "amount": "150"
+    },
+    {
+      "date": "2026-12-15",
+      "amount": "150"
+    }
+  ]
+}

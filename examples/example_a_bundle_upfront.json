@@ -1,0 +1,31 @@
+{
+  "id": "EX-A",
+  "customer": "Fleet Co",
+  "customer_type": "fleet",
+  "transaction_price": "2400",
+  "lines": [
+    {
+      "id": "L1",
+      "product": "dashcam",
+      "stream": "hardware",
+      "qty": 1,
+      "pattern": "point_in_time",
+      "start": "2026-01-15"
+    },
+    {
+      "id": "L2",
+      "product": "data-12m",
+      "stream": "data",
+      "qty": 1,
+      "pattern": "over_time",
+      "start": "2026-01-15",
+      "months": 12
+    }
+  ],
+  "invoices": [
+    {
+      "date": "2026-01-15",
+      "amount": "2400"
+    }
+  ]
+}
